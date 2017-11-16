@@ -1,0 +1,25 @@
+
+# logs
+*.log
+.idea
+npm-debug.log*
+
+# dependencies
+/node_modules
+
+# cache files
+.DS_Store
+.npm
+
+# middle compile files
+/src/sprites/*
+
+# build results
+# /pub/*
+# /entry/*
+# /findpassword/*
+
+# local configs
+lauch.json
+.vscode
+
