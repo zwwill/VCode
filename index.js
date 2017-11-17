@@ -11,8 +11,10 @@ import supportCss3 from './src/js/check/supportCss3';
 /**
  * option
  * */
-import getUrlParam from './src/js/option/getUrlParam';
-import selectInputValue from './src/js/option/selectInputValue';
+import getUrlParam from './src/js/operate/getUrlParam';
+import selectInputValue from './src/js/operate/selectInputValue';
+import setCookie from './src/js/operate/setCookie';
+import timeClock from './src/js/operate/timeClock';
 
 
 export {
@@ -23,5 +25,7 @@ export {
 
     // option
     getUrlParam,
-    selectInputValue
+    selectInputValue,
+    setCookie,
+    timeClock
 }

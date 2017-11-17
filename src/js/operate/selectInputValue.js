@@ -1,5 +1,5 @@
 
-export default (_ele) => {
+export default _ele => {
     var elemLen = _ele.value.length;
     // For IE Only
     if (document.selection) {
