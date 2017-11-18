@@ -1,16 +1,17 @@
 
-export default (_calback,_time) => {
+export default (_setpCalback, _time, _endCallback) => {
     if(!_calback || !_time) throw "SyntaxError: Unexpected identifier";
 
     let st = Date.now(),
         i = 0,
         itv = setInterval(()=>{
             i = ~~((Date.now() - st)/1000);
-            _calback.call(this);
-            if(i >= 3){
+            if(i >= _time){
                 clearInterval(itv);
-                alert('time over')
+                _endCallback && _endCallback.call(this);
+                return;
             }
+            _calback & _calback.call(this);
         },1000);
     return itv;
 };

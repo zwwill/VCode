@@ -1,12 +1,12 @@
 
 'use strict';
 
-import checkMobile from './checkMobile';
 import checkChinaID from './checkChinaID';
+import checkMobile from './checkMobile';
 import supportCss3 from './supportCss3';
 
-export {
-    checkMobile,
+export default {
     checkChinaID,
+    checkMobile,
     supportCss3
 }
