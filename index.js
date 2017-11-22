@@ -4,15 +4,33 @@
 /**
  * check
  * */
-import check from './src/js/check';
+import {
+    checkChinaID,
+    checkMobile,
+    supportCss3,
+} from './src/check';
 
 /**
  * option
  * */
-import operate from './src/js/operate';
+import  {
+    cookie,
+    getUrlParam,
+    localStorage,
+    selectInputValue,
+    sessionStorage,
+    timeClock,
+} from './src/operate';
 
+export {
+    checkChinaID,
+    checkMobile,
+    supportCss3,
 
-export  {
-    check,
-    operate
+    cookie,
+    getUrlParam,
+    localStorage,
+    selectInputValue,
+    sessionStorage,
+    timeClock,
 }

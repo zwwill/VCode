@@ -8,7 +8,7 @@ import selectInputValue from './selectInputValue';
 import sessionStorage from './sessionStorage';
 import timeClock from './timeClock';
 
-export default {
+export {
     cookie,
     getUrlParam,
     localStorage,

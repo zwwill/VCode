@@ -2,7 +2,7 @@
 
 ```
 // 单文件导入
-import checkChinaID form "scr/js/check/checkChinaID"
+import checkChinaID form "scr/check/checkChinaID"
 // 整包导入
-import {checkChinaID} form "scr/js/check"
+import {checkChinaID} form "scr/check"
 ```
