@@ -30,7 +30,7 @@ const awakeApp = _url => {
             alert('未安装app');
         }
         _iframe && _iframe.remove();
-    }, 2000);
+    }, 1300);
 
     _insetFrame(_url);
     timeout = setTimeout(function () {
