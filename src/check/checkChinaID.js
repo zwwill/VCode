@@ -1,6 +1,6 @@
 
 
-export default (_id,_detail = false) => {
+const checkChinaID = (_id,_detail = false) => {
     let cardNO = _id,
         errors = [
             "验证通过",
@@ -85,3 +85,5 @@ export default (_id,_detail = false) => {
 
     return _detail ? "" : true;
 };
+
+export default checkChinaID;

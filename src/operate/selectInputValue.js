@@ -1,5 +1,5 @@
 
-export default _ele => {
+const selectInputValue = _ele => {
     var elemLen = _ele.value.length;
     // For IE Only
     if (document.selection) {
@@ -19,3 +19,5 @@ export default _ele => {
         _ele.focus();
     }
 };
+
+export default selectInputValue;

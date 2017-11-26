@@ -1,6 +1,6 @@
 
-export default style => {
-    var prefix = ['webkit', 'Moz', 'ms', 'o'],
+const supportCss3 = style => {
+    let prefix = ['webkit', 'Moz', 'ms', 'o'],
         humpString = [],
         htmlStyle = document.documentElement.style,
         _toHumb = function (string) {
@@ -19,3 +19,5 @@ export default style => {
 
     return false;
 };
+
+export default supportCss3;

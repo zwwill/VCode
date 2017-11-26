@@ -1,5 +1,5 @@
 
-export default (_setpCalback, _time, _endCallback) => {
+const timeClock = (_setpCalback, _time, _endCallback) => {
     if(!_calback || !_time) throw "SyntaxError: Unexpected identifier";
 
     let st = Date.now(),
@@ -15,3 +15,5 @@ export default (_setpCalback, _time, _endCallback) => {
         },1000);
     return itv;
 };
+
+export default timeClock;

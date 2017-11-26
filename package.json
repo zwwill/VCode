@@ -4,12 +4,14 @@
   "description": "zwwill's codebase",
   "main": "index.js",
   "scripts": {
-    "pro": "webpack --progress --colors"
+    "pro": "webpack --progress --colors",
+    "dev": "webpack-dev-server --hot --colors"
   },
   "author": "zwwill",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
