@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pro": "webpack --progress --colors",
-    "dev": "webpack-dev-server --hot --colors"
+    "dev": "webpack-dev-server --inline --hot"
   },
   "author": "zwwill",
   "license": "ISC",

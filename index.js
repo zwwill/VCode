@@ -11,9 +11,10 @@ import {
 } from './src/check';
 
 /**
- * option
+ * operate
  * */
 import  {
+    awakeApp,
     cookie,
     getUrlParam,
     localStorage,
@@ -27,6 +28,7 @@ export {
     checkMobile,
     supportCss3,
 
+    awakeApp,
     cookie,
     getUrlParam,
     localStorage,
