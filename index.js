@@ -16,6 +16,8 @@ import {
 import  {
     awakeApp,
     cookie,
+    freezeBody,
+    deFreezeBody,
     getUrlParam,
     localStorage,
     selectInputValue,
@@ -30,6 +32,8 @@ export {
 
     awakeApp,
     cookie,
+    freezeBody,
+    deFreezeBody,
     getUrlParam,
     localStorage,
     selectInputValue,
