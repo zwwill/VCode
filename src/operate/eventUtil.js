@@ -1,6 +1,6 @@
 const eventUtil = {
     // 绑定事件
-    addHandler: function (element, type, handler) {
+    addHandler(element, type, handler) {
         if (element.addEventListener) {
             element.addEventListener(type, handler, false);
         } else if (element.attachEvent) {
@@ -10,7 +10,7 @@ const eventUtil = {
         }
     },
     // 解绑事件
-    removeHandler: function (element, type, handler) {
+    removeHandler(element, type, handler) {
         if (element.removeEventListener) {
             element.removeEventListener(type, handler, false);
         } else if (element.detachEvent) {
