@@ -5,6 +5,7 @@ import awakeApp from './awakeApp';
 import cookie from './cookie';
 import freezeBody from './freezeBody';
 import deFreezeBody from './deFreezeBody';
+import eventUtil from './eventUtil';
 import getUrlParam from './getUrlParam';
 import localStorage from './localStorage';
 import selectInputValue from './selectInputValue';
@@ -16,6 +17,7 @@ export {
     cookie,
     freezeBody,
     deFreezeBody,
+    eventUtil,
     getUrlParam,
     localStorage,
     selectInputValue,
