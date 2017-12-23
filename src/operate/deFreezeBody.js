@@ -5,9 +5,7 @@ const deFreezeBody = () => {
         this.__body.style.position = '';
         this.__body.style.top = '';
         this.__scrollTop = this.__scrollTop || 0;
-
-        document.documentElement.scrollTop =  document.body.scrollTop = this.__scrollTop || 0;
-
+        document.documentElement.scrollTop = this.__body.scrollTop = this.__scrollTop || 0;
     }catch (e){}
 };
 
