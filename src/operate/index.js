@@ -6,7 +6,7 @@ import cookie from './cookie';
 import freezeBody from './freezeBody';
 import deFreezeBody from './deFreezeBody';
 import eventUtil from './eventUtil';
-import getUrlParam from './getUrlParam';
+import getUrlParam from './url';
 import localStorage from './localStorage';
 import selectInputValue from './selectInputValue';
 import sessionStorage from './sessionStorage';
